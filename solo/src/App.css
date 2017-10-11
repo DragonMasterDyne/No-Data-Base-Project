@@ -1,0 +1,46 @@
+.back{
+  background-image: url('https://wallpaperscraft.com/image/hearthstone_heroes_of_warcraft_box_sword_smoke_pattern_95366_1920x1080.jpg');
+  background-size: contain;
+}
+input {
+  display: flex;
+  align-self: center;
+}
+.logo {
+  height: 30vh;
+  width: 60vw;
+  margin-left: 30%;
+}
+.logo img {
+  width: 40vw;
+}
+.text {
+  background-color: rgb(148, 147, 142);  
+  text-decoration-line: underline;
+  font-size: 20px;
+  font-style: bold;
+  color: rgb(90, 36, 41);
+}
+.text2 {
+  background-color: rgb(148, 148, 148);
+  color: rgb(4, 80, 95);
+}
+.card-results {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin-left: 20px;
+  text-align: center;
+}
+.text-coloum {
+  width: 120px;
+  margin-top: 60px;
+  float: left;
+  flex-direction: column;
+  text-align: center;
+}
+.InfoProps {
+  display: flex;
+  position: absolute;
+  flex-flow: column;
+}
